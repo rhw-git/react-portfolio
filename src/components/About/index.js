@@ -9,7 +9,7 @@ import profileImage from '../../assets/about/profile-img.png';
 
 function About() {
   return (
-    <Container fluid className="px-4">
+    <Container fluid className="px-4" id="about">
       <Row>
         <Col xs={12} md={8}>
           <Row className="py-5 text-muted px-0">
@@ -24,7 +24,7 @@ function About() {
               />
             </Col>
             <Col xs={12} md={10}>
-              <h3 className="pb-5 text-sm-left text-md-right pt-md-3">
+              <h3 className="pb-5 text-sm-left text-md-middle pt-md-3">
                 My name is Ruoha Wang, and I develop websites.
               </h3>
             </Col>
