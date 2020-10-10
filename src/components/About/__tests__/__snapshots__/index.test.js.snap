@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<DocumentFragment>
+  <div
+    class="px-4 container-fluid"
+    id="about"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-8 col-12"
+      >
+        <div
+          class="py-5 text-muted px-0 row"
+        >
+          <div
+            class="col-12"
+          >
+            <p>
+              HELLO THERE!
+            </p>
+          </div>
+          <div
+            class="pb-4 col-md-2 col-12"
+          >
+            <img
+              class="rounded-circle"
+              src="profile-img.png"
+              style="width: 6rem;"
+            />
+          </div>
+          <div
+            class="col-md-10 col-12"
+          >
+            <h3
+              class="pb-5 text-sm-left text-md-middle pt-md-3"
+            >
+              My name is Ruoha Wang, and I develop websites.
+            </h3>
+          </div>
+          <div
+            class="col-12"
+          >
+            <h5
+              class="pb-3"
+            >
+              I am based out of the Bay Area at Northern California.I work on both front-end & back-end applicaitons.
+            </h5>
+            <h5
+              class="pb-3"
+            >
+              As a web Develop, I beleive that the good communications between all parties are essential for a successful project. So I am exciting to work with you closely to lauch your next site. 
+            </h5>
+            <h5
+              class="pb-3"
+            >
+              Let me know how can I be at your service, and I am just an email / phone call away.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-4 col-6"
+      >
+        <div
+          class="py-5 text-muted"
+        >
+          <p
+            class="text-sm-right"
+          >
+            EXPERIENCES WITH:
+          </p>
+          <div
+            class="text-sm-right"
+          >
+            <h5>
+              CSS
+            </h5>
+            <h5>
+              JavaScript
+            </h5>
+            <h5>
+              Web / Third-Party / Server-Side APIs
+            </h5>
+            <h5>
+              Node
+            </h5>
+            <h5>
+              NoSQL
+            </h5>
+            <h5>
+              PWA
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

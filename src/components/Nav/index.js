@@ -21,10 +21,18 @@ function NavigationBar() {
         >
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link data-testid="about" href="#about">
+              About Me
+            </Nav.Link>
+            <Nav.Link data-testid="portfolio" href="#portfolio">
+              Portfolio
+            </Nav.Link>
+            <Nav.Link data-testid="contact" href="#contact">
+              Contact
+            </Nav.Link>
+            <Nav.Link data-testid="resume" href="#resume">
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

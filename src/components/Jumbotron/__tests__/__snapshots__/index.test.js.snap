@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-dark text-white card"
+    style="border-radius: 0;"
+  >
+    <div
+      alt="Card image"
+      style="background-image: url(jumbo-image.jpg); height: 16rem; width: 100%;"
+      variant="top"
+    />
+    <div
+      class="card-img-overlay"
+    >
+      <div
+        class="card-title h5"
+      >
+        Hi, Welcome to My Personal Website !
+      </div>
+      <p
+        class="card-text"
+      >
+        I am happy to assist you with your next website.
+        <span
+          aria-label="wink"
+        >
+          😉
+        </span>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

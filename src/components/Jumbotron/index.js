@@ -23,7 +23,8 @@ function Jumbo() {
       <Card.ImgOverlay>
         <Card.Title>Hi, Welcome to My Personal Website !</Card.Title>
         <Card.Text>
-          I am happy to assist you with your next website. 😉
+          I am happy to assist you with your next website.
+          <span aria-label="wink">😉</span>
         </Card.Text>
       </Card.ImgOverlay>
     </Card>
