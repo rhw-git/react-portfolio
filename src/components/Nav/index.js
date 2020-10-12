@@ -4,14 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 function NavigationBar(props) {
-  const {
-    contactSelected,
-    setContactSelected,
-    resumeSelected,
-    setResumeSelected,
-    portfolioSelected,
-    setPortfolioSelected,
-  } = props;
+  const { setContactSelected, setResumeSelected, setPortfolioSelected } = props;
   return (
     <header>
       <Navbar

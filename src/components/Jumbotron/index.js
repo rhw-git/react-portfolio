@@ -5,8 +5,6 @@ import Card from 'react-bootstrap/Card';
 // import Container from 'react-bootstrap/Container';
 
 function Jumbo() {
-  let pageHeader = React.createRef();
-
   React.useEffect(() => {});
   return (
     <Card className="bg-dark text-white" style={{ borderRadius: 0 }}>
@@ -24,7 +22,9 @@ function Jumbo() {
         <Card.Title>Hi, Welcome to My Personal Website !</Card.Title>
         <Card.Text>
           I am happy to assist you with your next website.
-          <span aria-label="wink">😉</span>
+          <span aria-label="wink" role="img">
+            😉
+          </span>
         </Card.Text>
       </Card.ImgOverlay>
     </Card>
