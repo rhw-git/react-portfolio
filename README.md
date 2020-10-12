@@ -12,7 +12,6 @@ Here is my personal portfolio site. Thank you for visiting
 - [Available Scripts](#Available-Scripts)
 - [Badges](#badges)
 - [GitHub](#github)
-- [Heroku](#heroku)
 
 ## Screenshot
 
