@@ -3,7 +3,15 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-function NavigationBar() {
+function NavigationBar(props) {
+  const {
+    contactSelected,
+    setContactSelected,
+    resumeSelected,
+    setResumeSelected,
+    portfolioSelected,
+    setPortfolioSelected,
+  } = props;
   return (
     <header>
       <Navbar
@@ -21,16 +29,48 @@ function NavigationBar() {
         >
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <Nav.Link data-testid="about" href="#about">
+            <Nav.Link
+              data-testid="about"
+              href="#about"
+              onClick={() => {
+                setContactSelected(false);
+                setResumeSelected(false);
+                setPortfolioSelected(false);
+              }}
+            >
               About Me
             </Nav.Link>
-            <Nav.Link data-testid="portfolio" href="#portfolio">
+            <Nav.Link
+              data-testid="portfolio"
+              href="#portfolio"
+              onClick={() => {
+                setContactSelected(false);
+                setResumeSelected(false);
+                setPortfolioSelected(true);
+              }}
+            >
               Portfolio
             </Nav.Link>
-            <Nav.Link data-testid="contact" href="#contact">
+            <Nav.Link
+              data-testid="contact"
+              href="#contact"
+              onClick={() => {
+                setContactSelected(true);
+                setResumeSelected(false);
+                setPortfolioSelected(false);
+              }}
+            >
               Contact
             </Nav.Link>
-            <Nav.Link data-testid="resume" href="#resume">
+            <Nav.Link
+              data-testid="resume"
+              href="#resume"
+              onClick={() => {
+                setContactSelected(false);
+                setResumeSelected(true);
+                setPortfolioSelected(false);
+              }}
+            >
               Resume
             </Nav.Link>
           </Nav>
