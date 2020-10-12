@@ -55,7 +55,7 @@ function ContactForm() {
     <div id="contact-form" className="px-4 py-4 container-fluid">
       <Form id="contact-form" onSubmit={handleSubmit}>
         <Col className="py-3 text-muted px-0" xs={12}>
-          <p>LET'S TALK</p>
+          <p data-testid="contact">LET'S TALK</p>
         </Col>
         <Form.Group as={Row} controlId="name">
           <Form.Label column sm={2}>
@@ -105,7 +105,11 @@ function ContactForm() {
         </Form.Group>
         <Form.Group as={Row}>
           <Col sm={10}>
-            <Button type="submit" variant="outline-secondary">
+            <Button
+              type="submit"
+              variant="outline-secondary"
+              data-testid="button"
+            >
               Submit
             </Button>
           </Col>
