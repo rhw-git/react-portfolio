@@ -1,9 +1,12 @@
 import React from 'react';
-
+// import for bootstrap
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+// import for react-reveal
+import Fade from 'react-reveal/Fade';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 import profileImage from '../../assets/about/profile-img.png';
 
@@ -14,19 +17,31 @@ function About() {
         <Col xs={12} md={8}>
           <Row className="py-5 text-muted px-0">
             <Col xs={12}>
-              <p>HELLO THERE!</p>
+              <div>
+                <Fade left>
+                  <p>HELLO THERE!</p>
+                </Fade>
+              </div>
             </Col>
             <Col className="pb-4" xs={12} md={2}>
-              <Image
-                src={profileImage}
-                roundedCircle
-                style={{ width: '6rem' }}
-              />
+              <div>
+                <LightSpeed left>
+                  <Image
+                    src={profileImage}
+                    roundedCircle
+                    style={{ width: '6rem' }}
+                  />
+                </LightSpeed>
+              </div>
             </Col>
             <Col xs={12} md={10}>
-              <h3 className="pb-5 text-sm-left text-md-middle pt-md-3">
-                My name is Ruoha Wang, and I develop websites.
-              </h3>
+              <div>
+                <Fade right>
+                  <h3 className="pb-5 text-sm-left text-md-middle pt-md-3">
+                    My name is Ruoha Wang, and I develop websites.
+                  </h3>
+                </Fade>
+              </div>
             </Col>
             <Col xs={12}>
               <h5 className="pb-3">

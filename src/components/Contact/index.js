@@ -5,6 +5,8 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+// import for react-reveal
+import Fade from 'react-reveal/Fade';
 // import from helper function
 import { validateEmail } from '../../utils/helpers';
 
@@ -53,68 +55,70 @@ function ContactForm() {
   //----------return----------//
   return (
     <div id="contact-form" className="px-4 py-4 container-fluid">
-      <Form id="contact-form" onSubmit={handleSubmit}>
-        <Col className="py-3 text-muted px-0" xs={12}>
-          <p data-testid="contact">LET'S TALK</p>
-        </Col>
-        <Form.Group as={Row} controlId="name">
-          <Form.Label column sm={2}>
-            Name
-          </Form.Label>
-          <Col>
+      <Fade bottom big>
+        <Form id="contact-form" onSubmit={handleSubmit}>
+          <Col className="py-3 text-muted px-0" xs={12}>
+            <p data-testid="contact">LET'S TALK</p>
+          </Col>
+          <Form.Group as={Row} controlId="name">
+            <Form.Label column sm={2}>
+              Name
+            </Form.Label>
+            <Col>
+              <Form.Control
+                name="firstName"
+                placeholder="First name"
+                defaultValue={firstName}
+                onBlur={handleChange}
+              />
+            </Col>
+            <Col>
+              <Form.Control
+                name="lastName"
+                placeholder="Last name"
+                defaultValue={lastName}
+                onBlur={handleChange}
+              />
+            </Col>
+          </Form.Group>
+          <Form.Group as={Row} controlId="email">
+            <Form.Label column sm={2}>
+              Email
+            </Form.Label>
+            <Col sm={10}>
+              <Form.Control
+                type="email"
+                name="email"
+                placeholder="Email"
+                defaultValue={email}
+                onBlur={handleChange}
+              />
+            </Col>
+          </Form.Group>
+          <Form.Group controlId="message" className="pt-3">
+            <Form.Label>Message</Form.Label>
             <Form.Control
-              name="firstName"
-              placeholder="First name"
-              defaultValue={firstName}
+              as="textarea"
+              rows={5}
+              name="message"
+              placeholder="Tell me about our next project!"
+              defaultValue={message}
               onBlur={handleChange}
             />
-          </Col>
-          <Col>
-            <Form.Control
-              name="lastName"
-              placeholder="Last name"
-              defaultValue={lastName}
-              onBlur={handleChange}
-            />
-          </Col>
-        </Form.Group>
-        <Form.Group as={Row} controlId="email">
-          <Form.Label column sm={2}>
-            Email
-          </Form.Label>
-          <Col sm={10}>
-            <Form.Control
-              type="email"
-              name="email"
-              placeholder="Email"
-              defaultValue={email}
-              onBlur={handleChange}
-            />
-          </Col>
-        </Form.Group>
-        <Form.Group controlId="message" className="pt-3">
-          <Form.Label>Message</Form.Label>
-          <Form.Control
-            as="textarea"
-            rows={5}
-            name="message"
-            placeholder="Tell me about our next project!"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </Form.Group>
-        <Form.Group as={Row}>
-          <Col sm={10}>
-            <Button
-              type="submit"
-              variant="outline-secondary"
-              data-testid="button"
-            >
-              Submit
-            </Button>
-          </Col>
-        </Form.Group>
-      </Form>
+          </Form.Group>
+          <Form.Group as={Row}>
+            <Col sm={10}>
+              <Button
+                type="submit"
+                variant="outline-secondary"
+                data-testid="button"
+              >
+                Submit
+              </Button>
+            </Col>
+          </Form.Group>
+        </Form>
+      </Fade>
     </div>
   );
 }
