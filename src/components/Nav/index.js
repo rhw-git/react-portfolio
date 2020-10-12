@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 function NavigationBar(props) {
   const { setContactSelected, setResumeSelected, setPortfolioSelected } = props;
+
   return (
     <header>
       <Navbar

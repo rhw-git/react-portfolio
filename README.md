@@ -66,7 +66,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## GitHub
 
-My GitHub link: (https://github.com/rhw-git/budget-tracker)
+My GitHub link: (https://rhw-git.github.io/react-protfolio/)
 
 ## Contribution
 
