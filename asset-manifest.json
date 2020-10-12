@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-protfolio.git/static/css/main.ed42c06f.chunk.css",
+    "main.js": "/react-protfolio.git/static/js/main.1e5f2c2f.chunk.js",
+    "main.js.map": "/react-protfolio.git/static/js/main.1e5f2c2f.chunk.js.map",
+    "runtime-main.js": "/react-protfolio.git/static/js/runtime-main.dad2df2a.js",
+    "runtime-main.js.map": "/react-protfolio.git/static/js/runtime-main.dad2df2a.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/react-protfolio.git/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9bd116c3.chunk.js": "/react-protfolio.git/static/js/2.9bd116c3.chunk.js",
+    "static/js/2.9bd116c3.chunk.js.map": "/react-protfolio.git/static/js/2.9bd116c3.chunk.js.map",
+    "index.html": "/react-protfolio.git/index.html",
+    "precache-manifest.50954e0e5b32654d9ca638aad334afe1.js": "/react-protfolio.git/precache-manifest.50954e0e5b32654d9ca638aad334afe1.js",
+    "service-worker.js": "/react-protfolio.git/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/react-protfolio.git/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.ed42c06f.chunk.css.map": "/react-protfolio.git/static/css/main.ed42c06f.chunk.css.map",
+    "static/js/2.9bd116c3.chunk.js.LICENSE.txt": "/react-protfolio.git/static/js/2.9bd116c3.chunk.js.LICENSE.txt",
+    "static/media/budget-tracker.png": "/react-protfolio.git/static/media/budget-tracker.3ea68a25.png",
+    "static/media/code-quiz.png": "/react-protfolio.git/static/media/code-quiz.29a4f0ca.png",
+    "static/media/cosmopolitan-tastes.png": "/react-protfolio.git/static/media/cosmopolitan-tastes.00448dc1.png",
+    "static/media/jumbo-image.jpg": "/react-protfolio.git/static/media/jumbo-image.9a512004.jpg",
+    "static/media/profile-img.png": "/react-protfolio.git/static/media/profile-img.c0f05053.png",
+    "static/media/tech-blog.png": "/react-protfolio.git/static/media/tech-blog.c778cf71.png",
+    "static/media/weather-dashboard.png": "/react-protfolio.git/static/media/weather-dashboard.5dfb6819.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dad2df2a.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9bd116c3.chunk.js",
+    "static/css/main.ed42c06f.chunk.css",
+    "static/js/main.1e5f2c2f.chunk.js"
+  ]
+}
