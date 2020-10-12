@@ -1,8 +1,6 @@
 import React from 'react';
 
 import Card from 'react-bootstrap/Card';
-// import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
-// import Container from 'react-bootstrap/Container';
 
 function Jumbo() {
   React.useEffect(() => {});
