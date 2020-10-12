@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<DocumentFragment>
+  <div
+    class="px-4 container-fluid"
+    id="resume"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-9 col-12"
+      >
+        <div
+          class="pt-5 text-muted px-0 row"
+        >
+          <div
+            class="pb-5 container-fluid"
+          >
+            <div
+              class="pt-2 col-12"
+              data-testid="education"
+            >
+              <p>
+                EDUCATION
+              </p>
+            </div>
+            <div
+              class="col-md-10 col-12"
+            >
+              <h4
+                class="pb-2 text-sm-left text-md-middle pt-md-3"
+              >
+                UC Berkeley Web Developing Bootcamp
+              </h4>
+              <h6>
+                05/19/2020 - PRESNET
+              </h6>
+              <h4
+                class="pb-2 text-sm-left text-md-middle pt-md-3"
+              >
+                University of California at Berkeley, Berkeley, CA
+              </h4>
+              <h6>
+                Master of Architecture // 08/19/2015 - 05/13/2016
+              </h6>
+              <h3
+                class="pb-2 text-sm-left text-md-middle pt-md-3"
+              >
+                University of Southern California, Los Angeles, CA
+              </h3>
+              <h6>
+                Bachelor of Architecture // 08/24/2009 - 05/16/2014
+              </h6>
+            </div>
+          </div>
+          <div
+            class="container-fluid"
+          >
+            <div
+              class="pt-2 col-12"
+              data-testid="experience"
+            >
+              <p>
+                PROFESSIONAL EXPERIENCE
+              </p>
+            </div>
+            <div
+              class="col-md-11 col-12"
+            >
+              <div
+                class="align-items-center row"
+              >
+                <div
+                  class="col-md-7 col-12"
+                >
+                  <h4
+                    class="pb-2 text-sm-left text-md-middle pt-md-3"
+                  >
+                    AECOM, OAKLAND / SAN FRANCISCO, CA
+                  </h4>
+                </div>
+                <div
+                  class="col-md-5 col-12"
+                >
+                  <p
+                    class="text-mute text-sm-left text-md-right"
+                  >
+                    full-time: 08/29/2016 to PRESENT
+                  </p>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul
+                    class="pb-3"
+                    style="list-style-type: square;"
+                  >
+                    <li>
+                      <h6>
+                        creating and updating detailed drawings, using AutoCAD and Microstation software, based on design criteria, sketches, plans, specifications, and instructions
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        coordinating architectural work with work of related disciplines, such as structural, mechanical and electrical
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        investigating building materials to determine their functional suitability and code-compliance
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        developing 3-D engineering design models in CADD, using software such as Revit
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        collecting and organizing detail drawings from previous projects to create detail library
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        present and evaluate professional opinions solicited from manufacturer representatives, consultants, and cost estimators to determine most ideal constructional contractors to ensure a cost-efficient high-quality finish.
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        Attend site visits and conference calls with clients, consultants, contractors, fabricators and regulatory agencies to meet overall project objectives.
+                      </h6>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-11 col-12"
+            >
+              <div
+                class="align-items-center row"
+              >
+                <div
+                  class="col-md-7 col-12"
+                >
+                  <h4
+                    class="pb-2 text-sm-left text-md-middle"
+                  >
+                    SenseLab, Los Angeles, CA
+                  </h4>
+                </div>
+                <div
+                  class="col-md-5 col-12"
+                >
+                  <p
+                    class="text-mute text-sm-left text-md-right"
+                  >
+                    part-time intern: SUMMER 2014 to SPRING 2015
+                  </p>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul
+                    class="pb-3"
+                    style="list-style-type: square;"
+                  >
+                    <li>
+                      <h6>
+                        3D modeling for furniture design project
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        drafting and diagramming for architecture design projects
+                      </h6>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-11 col-12"
+            >
+              <div
+                class="align-items-center row"
+              >
+                <div
+                  class="col-md-7 col-12"
+                >
+                  <h4
+                    class="pb-2 text-sm-left text-md-middle"
+                  >
+                    Gary Paige Architect, Los Angeles, CA
+                  </h4>
+                </div>
+                <div
+                  class="col-md-5 col-12"
+                >
+                  <p
+                    class="text-mute text-sm-left text-md-right"
+                  >
+                    part-time intern: SUMMER 2013 to SPRING 2015
+                  </p>
+                </div>
+                <div
+                  class="col-12"
+                >
+                  <ul
+                    class="pb-3"
+                    style="list-style-type: square;"
+                  >
+                    <li>
+                      <h6>
+                         building physical and digital models
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        drafting construction and presentational drawings
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        generating graphic presentations and renderings
+                      </h6>
+                    </li>
+                    <li>
+                      <h6>
+                        participating in the Tiny House Competition
+                      </h6>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-3 col-6"
+      >
+        <div
+          class="py-5 text-muted"
+          data-testid="frontEnd"
+        >
+          <p
+            class="text-sm-right"
+          >
+            FRONT-END PROFICIENCIES:
+          </p>
+          <div
+            class="text-sm-right"
+          >
+            <h5>
+              HTML
+            </h5>
+            <h5>
+              CSS
+            </h5>
+            <h5>
+              JavaScript
+            </h5>
+            <h5>
+              jQuery
+            </h5>
+            <h5>
+              responsive design
+            </h5>
+            <h5>
+              Bootstrap
+            </h5>
+            <h5>
+              React
+            </h5>
+          </div>
+        </div>
+        <div
+          class="py-5 text-muted"
+          data-testid="backEnd"
+        >
+          <p
+            class="text-sm-right"
+          >
+            BACK-END PROFICIENCIES:
+          </p>
+          <div
+            class="text-sm-right"
+          >
+            <h5>
+              APIs
+            </h5>
+            <h5>
+              Node
+            </h5>
+            <h5>
+              Express
+            </h5>
+            <h5>
+              MySQl & Sequelize
+            </h5>
+            <h5>
+              MongoDB & Mongoose
+            </h5>
+            <h5>
+              REST
+            </h5>
+            <h5>
+              GraphQL
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
