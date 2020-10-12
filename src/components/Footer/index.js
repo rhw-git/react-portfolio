@@ -6,7 +6,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import for bootstrap
 import Card from 'react-bootstrap/Card';
 
-function Footer() {
+function FooterLayout() {
   React.useEffect(() => {});
   return (
     <Card className="bg-dark text-white py-0" style={{ borderRadius: 0 }}>
@@ -56,4 +56,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterLayout;

@@ -8,7 +8,7 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
+import FooterLayout from './components/Footer';
 
 function App() {
   //--------hooks-----------//
@@ -60,7 +60,7 @@ function App() {
         })()}
       </main>
       <footer>
-        <Footer></Footer>
+        <FooterLayout></FooterLayout>
       </footer>
     </div>
   );

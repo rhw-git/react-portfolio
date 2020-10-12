@@ -1,4 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
+
+## Description
+
+Here is my personal portfolio site. Thank you for visiting
+
+## Table of Contents
+
+- [Contribution](#contribution)
+- [Screenshot](#screenshot)
+- [License](#license)
+- [Available Scripts](#Available-Scripts)
+- [Badges](#badges)
+- [GitHub](#github)
+- [Heroku](#heroku)
+
+## Screenshot
+
+![](public/assets/screenshot.png)
+
+## License
+
+MIT
 
 ## Available Scripts
 
@@ -37,32 +59,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Badges
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![badmath](https://img.shields.io/conda/l/conda-forge/setuptools?color=Blue&label=License&logo=ISC&logoColor=blue&style=plastic)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![badmath](https://img.shields.io/node/v/react?style=plastic)
 
-### Code Splitting
+## GitHub
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+My GitHub link: (https://github.com/rhw-git/budget-tracker)
 
-### Analyzing the Bundle Size
+## Contribution
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made with ❤️ by Ruohan Wang
