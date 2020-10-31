@@ -17,6 +17,7 @@ function Portfolio() {
   const [gitHubLinkShowProj3, setgitHubLinkShowProj3] = useState(false);
   const [gitHubLinkShowProj4, setgitHubLinkShowProj4] = useState(false);
   const [gitHubLinkShowProj5, setgitHubLinkShowProj5] = useState(false);
+  const [gitHubLinkShowProj6, setgitHubLinkShowProj5] = useState(false);
   // hook for background image transparency
   const [
     backgroundTransparencyProj1,
@@ -38,12 +39,17 @@ function Portfolio() {
     backgroundTransparencyProj5,
     setBackgroundTransparencyProj5,
   ] = useState('100%');
+  const [
+    backgroundTransparencyProj6,
+    setBackgroundTransparencyProj6,
+  ] = useState('100%');
   // hook for card shadow
   const [shadowShowProj1, setShadowShowProj1] = useState('none');
   const [shadowShowProj2, setShadowShowProj2] = useState('none');
   const [shadowShowProj3, setShadowShowProj3] = useState('none');
   const [shadowShowProj4, setShadowShowProj4] = useState('none');
   const [shadowShowProj5, setShadowShowProj5] = useState('none');
+  const [shadowShowProj6, setShadowShowProj6] = useState('none');
   //----------return----------//
   return (
     <Container fluid className="px-4 py-4" id="portfolio">
@@ -251,7 +257,50 @@ function Portfolio() {
               <h5 className="mr-auto py-0 my-0 col-example">code quiz</h5>
               <a
                 className="col-example py-0 my-0"
-                href="https://rhw-git.github.io/challenge-04-Code-Quiz/"
+                href="https://github.com/rhw-git/book-search-engine"
+                alt="gitHub-link"
+                target="_blank"
+              >
+                {gitHubLinkShowProj5 && (
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{
+                      height: '3rem',
+                      width: '3rem',
+                      color: '#252525',
+                    }}
+                  />
+                )}
+              </a>
+            </Card.ImgOverlay>
+          </Card>
+          <Card
+            border="light"
+            onMouseEnter={() => {
+              setgitHubLinkShowProj6(true);
+              setBackgroundTransparencyProj6('30%');
+              setShadowShowProj6('shadow');
+            }}
+            onMouseLeave={() => {
+              setgitHubLinkShowProj6(false);
+              setBackgroundTransparencyProj6('100%');
+              setShadowShowProj6('none');
+            }}
+            className={shadowShowProj6}
+          >
+            <Card.Img
+              variant="top"
+              src={require(`../../assets/Portfolio/whats-in-your-fridge.png`)}
+              alt="budget-tracker"
+              className="mx-1"
+              key="budget-tracker"
+              style={{ opacity: backgroundTransparencyProj6 }}
+            />
+            <Card.ImgOverlay className="d-flex align-items-end example-parent">
+              <h5 className="mr-auto py-0 my-0 col-example">code quiz</h5>
+              <a
+                className="col-example py-0 my-0"
+                href="https://github.com/TheresaRutledge/whats-in-your-fridge"
                 alt="gitHub-link"
                 target="_blank"
               >
