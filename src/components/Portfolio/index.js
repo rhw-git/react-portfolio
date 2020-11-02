@@ -17,7 +17,7 @@ function Portfolio() {
   const [gitHubLinkShowProj3, setgitHubLinkShowProj3] = useState(false);
   const [gitHubLinkShowProj4, setgitHubLinkShowProj4] = useState(false);
   const [gitHubLinkShowProj5, setgitHubLinkShowProj5] = useState(false);
-  const [gitHubLinkShowProj6, setgitHubLinkShowProj5] = useState(false);
+  const [gitHubLinkShowProj6, setgitHubLinkShowProj6] = useState(false);
   // hook for background image transparency
   const [
     backgroundTransparencyProj1,
@@ -297,14 +297,16 @@ function Portfolio() {
               style={{ opacity: backgroundTransparencyProj6 }}
             />
             <Card.ImgOverlay className="d-flex align-items-end example-parent">
-              <h5 className="mr-auto py-0 my-0 col-example">code quiz</h5>
+              <h5 className="mr-auto py-0 my-0 col-example">
+                what's in your fridge
+              </h5>
               <a
                 className="col-example py-0 my-0"
                 href="https://github.com/TheresaRutledge/whats-in-your-fridge"
                 alt="gitHub-link"
                 target="_blank"
               >
-                {gitHubLinkShowProj5 && (
+                {gitHubLinkShowProj6 && (
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{
